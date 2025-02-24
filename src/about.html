@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About This Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #444;
+            margin-top: 20px;
+        }
+        p {
+            color: #666;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>About This Project</h1>
+    <h2>Overview</h2>
+    <p>
+        This project is a simple web server written in C. It is designed to serve static HTML files, such as this one, and handle basic HTTP requests. The server listens on port 8080 and can serve multiple pages, including a homepage and an about page.
+    </p>
+    <h2>How It Works</h2>
+    <p>
+        The server uses socket programming to accept incoming connections, parse HTTP requests, and serve the appropriate files. It supports basic file handling, such as reading HTML files and sending them as responses to clients. The server is lightweight and can be extended to support more advanced features.
+    </p>
+    <h2>Features</h2>
+    <p>
+        - Serves static HTML files.<br>
+        - Handles basic HTTP GET requests.<br>
+        - Supports multiple pages (e.g., homepage, about page).<br>
+        - Lightweight and easy to extend.
+    </p>
+    <p><a href="/">Go back to the homepage</a></p>
+</body>
+</html>
