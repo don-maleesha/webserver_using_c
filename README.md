@@ -23,6 +23,14 @@ This project is a simple web server implemented in C. It serves HTML pages and o
     
     URL decoding for special characters.
 
+# 📜 Requirements
+
+    A Unix-based OS (Linux/macOS) ⚠️ Not compatible with Windows.
+    
+    GCC (GNU Compiler Collection).
+    
+    Basic knowledge of C programming and networking.
+
 # 🔍 Implementation Details
 
 File Helpers
@@ -80,4 +88,4 @@ To access specific pages:
     Close file streams and free memory to prevent leaks.
     
     This server is designed for Linux/macOS and may not work on Windows without modifications (e.g., using Winsock).
-
+    Alternatively, you can run it on Windows using WSL(Windows Subsystem for Linux) or a Linux virtual machine.
