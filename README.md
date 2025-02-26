@@ -63,13 +63,13 @@ Use the Makefile for easier builds:
 
     $ make
 
-# Start the Server
+# ▶️ Start the Server
 
 Run the server executable:
 
     $ ./server
 
-Accessing the Server
+# 🌎 Accessing the Server
 
 Open a web browser and navigate to:
 
