@@ -51,11 +51,7 @@ Server Utilities
 
 Compilation (Linux/macOS)
 
-Use GCC to compile the server:
-
-    $ gcc -o server server.c -pthread
-
-Or use a Makefile for easier builds:
+Use the Makefile for easier builds:
 
     $ make
 
